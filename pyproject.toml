@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "country_tracker"
+version = "0.1.0"
+description = "Proto experiment: 2026-02-18-country-tracker"
+authors = ["Samay Panwar <samaybhuvi@gmail.com>"]
+packages = [{ include = "country_tracker", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.4.2"
+pandas = "<3.0.0"
+streamlit = "^1.54.0"
+plotly = "^6.5.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

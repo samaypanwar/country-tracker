@@ -1,0 +1,2 @@
+doc_type,country,name,issue_date,expiry_date,max_days,window_days,renew_before_days,notes
+visa,Schengen,Tourist Visa,2023-01-01,2024-01-01,90,180,30,Multi-entry

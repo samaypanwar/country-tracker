@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.cursor/
+
+# Ignore actual data and backups
+data/*.csv
+!data/sample_*.csv
+*.bak
